@@ -18,8 +18,8 @@ ENV/
 # Jupyter Notebook
 .ipynb_checkpoints/
 
-# Model files (large binaries)
-model/*.pkl
+# Model files (large binaries) — exclude v2 (4.5MB), keep v1 (333KB)
+model/spam_model_v2.pkl
 model/*.joblib
 model/*.h5
 model/*.bin
