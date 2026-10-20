@@ -2,3 +2,8 @@ pandas
 scikit-learn
 flask
 nltk
+gunicorn
+transformers
+torch
+scipy
+xgboost
